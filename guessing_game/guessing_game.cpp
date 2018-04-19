@@ -31,7 +31,7 @@ bool correct(string yes_no) {
       return false;
 }
 
-// function to calculat mean of two integers
+// function to calculate mean of two integers
 int mean(int a, int b) {
     return (a + b) / 2;
 }
