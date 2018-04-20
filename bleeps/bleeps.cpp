@@ -9,7 +9,7 @@ void bleeps() {
     vector<string> disliked_words = {"broccoli", "spinach", "onions", "carrots", "mushrooms"}; // vector of disliked words
 
     for(string word; cin >> word;) {
-        for (int i = 0; i < disliked_words.size(); ++i) { // loop iterates through disliked vector and sets dislike to true if the word from cin matches
+        for (int i = 0; i < disliked_words.size(); ++i) {
             if (word == disliked_words[i]) disliked = true;
         }
 
