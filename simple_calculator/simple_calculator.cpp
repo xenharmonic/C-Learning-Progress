@@ -36,8 +36,8 @@ char choose_operation() {
             return input;
         else
             cout << allowed << '\n' << "Please enter a valid operation.\n";
-    }
 
+    }
 }
 
 double choose_double() {
