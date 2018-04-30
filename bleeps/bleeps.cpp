@@ -4,10 +4,8 @@
 using namespace std;
 
 void bleeps() {
-
-    bool disliked = false; // variable to check if a disliked word has been found or not
     vector<string> disliked_words = {"broccoli", "spinach", "onions", "carrots", "mushrooms"}; // vector of disliked words
-
+    bool disliked = false; // variable to check if a disliked word has been found or not
     for(string word; cin >> word;) {
         for (int i = 0; i < disliked_words.size(); ++i) {
             if (word == disliked_words[i]) disliked = true;
